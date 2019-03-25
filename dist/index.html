@@ -14,6 +14,7 @@
   </head>
   <body>
     <div class="container">
+      <!-- header -->
       <header class="header">
         <img src="img/logo.png" alt="fest logo" class="logo">
 
@@ -46,15 +47,57 @@
             <span class="user-nav__user-name">Joe</span>
           </div>
         </nav>
+
       </header>
+
+      <!-- navigation -->
       <div class="content">
         <nav class="sidebar">
-          Navigation
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-note"></use>
+                </svg>
+                <span>Festival</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Accomodation</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-modern-mic"></use>
+                </svg>
+                <span>Bands</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Siteseeing</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; 2017 by Fest Seeker. All rights reserved.
+          </div>
         </nav>
+
         <main class="fest-view">
           Festival view
         </main>
       </div>
+
     </div>
   </body>
 </html>
